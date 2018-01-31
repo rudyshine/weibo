@@ -211,7 +211,7 @@ if __name__ == '__main__':
     username = '15089194359'  # 输入你的用户名
     password = 'zsr.1234'  # 输入你的密码
     ##Firefox
-    browser = webdriver.Firefox()
+    browser = webdriver.Chrome()
     url1="http://weibo.com/"
     login(username, password, url1)
     print('Read file:')
